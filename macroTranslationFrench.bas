@@ -13,8 +13,8 @@ Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFu
 Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute( _
 Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute( _
 Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute( _
-Substitute(CELL.Value, "é", "�"), " à ", " � "), "è", "�"), "ê", "�"), "â", "�"), "’", "'") _
-, "À", "�"), "û", "�"), "j�", "j�"), "ç", "�"), "Ê", "�")
+Windows.Application.WorksheetFunction.Substitute(CELL.Value, "Ã©", "é"), " Ã  ", " à "), "Ã¨", "è"), "Ãª", "ê"), "Ã¢", "â"), "â€™", "'") _
+, "Ã€", "À"), "Ã»", "û"), "jÃ", "jà"), "Ã§", "ç"), "ÃŠ", "Ê")
 
 Next
 
