@@ -8,13 +8,7 @@ CELL = ActiveCell.Value
 For Each CELL In Selection
 On Error Resume Next
 
-CELL.Value = Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute( _
-Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute( _
-Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute( _
-Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute( _
-Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute( _
-Windows.Application.WorksheetFunction.Substitute(CELL.Value, "Ã©", "é"), " Ã  ", " à "), "Ã¨", "è"), "Ãª", "ê"), "Ã¢", "â"), "â€™", "'") _
-, "Ã€", "À"), "Ã»", "û"), "jÃ", "jà"), "Ã§", "ç"), "ÃŠ", "Ê")
+CELL.Value = Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute(Windows.Application.WorksheetFunction.Substitute(CELL.Value, "Ã©", "é"), " Ã  ", " à "), "Ã¨", "è"), "Ãª", "ê"), "Ã¢", "â"), "â€™", "'"), "Ã€", "À"), "Ã»", "û"), "jÃ", "jà"), "Ã§", "ç"), "ÃŠ", "Ê")
 
 Next
 
