@@ -16,7 +16,7 @@ For Each CELL In Selection
 
 CELL.Value = folderx
 
-On Error Resume Next
+On Error GoTo TheEnd
 
 folderx = Dir
 
@@ -25,4 +25,4 @@ Next
 Wend
 
 
-End Sub
+TheEnd: End Sub
